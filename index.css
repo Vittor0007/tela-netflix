@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Netfont";
+  src: url("./assets/NetflixSans_W_Rg.woff2");
+  font-weight: 900;
+  font-size: normal;
+}
+
+* {
+  margin: 0;
+  font-family: Netfont;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.Principal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  flex-direction: column;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.perfis {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button {
+  width: 12rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  color: grey;
+  border: solid 0.1rem;
+  background-color: black;
+  cursor: pointer;
+}
+
+.button:hover {
+  outline: solid 1px white;
+  color: white;
+}
+
+.gerenciar_perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.foto_nome {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  align-items: center;
+  gap: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.foto_nome:hover {
+  color: white;
+}
+
+img {
+  border-radius: 0.2rem;
+}
+.foto_nome img:hover {
+  outline: solid 2px white;
+}
+
+a {
+  text-decoration: none;
+}
